@@ -17,8 +17,7 @@ choco install python --version 3.6.5 -y
 ```
 
 #### python packages
-- Send data from windows to linux.
-- Execute linux command from windows.
+- For GUI
 
 ```
 pip install --upgrade pip
