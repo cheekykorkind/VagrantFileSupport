@@ -1,26 +1,20 @@
 # Vagrant File support
 
-## Required install
+## How to use
 
-### choco
-For Windows.
-For install python.
-```
-@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+### Windows
+Download exe file and use.
+https://github.com/cheekykorkind/VagrantFileSupport/blob/master/src/Product/VagrantSupport.exe
 
-choco upgrade chocolatey
-```
+### Other OS
+- Install python 3.6.5
 
-### python
-```
-choco install python --version 3.6.5 -y
-```
-
-#### python packages
-- For GUI
-
+- Install python packages(For GUI)
 ```
 pip install --upgrade pip
 pip install pyqt5
 pip install pyqt5-tools
 ```
+
+- execute python script
+VagrantFileSupport/src/Main.py
